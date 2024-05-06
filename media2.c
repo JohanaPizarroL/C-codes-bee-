@@ -1,3 +1,5 @@
+// Calcular a media de 3 valores com pesos diferentes
+
 #include <stdio.h>
 
 int main(){
