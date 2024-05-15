@@ -1,16 +1,14 @@
-//distancia entre dois pontos
+// distancia 
 #include <stdio.h>
-#include <math.h>
 
 int main(){
-    double x1, x2, y1, y2, p1, p2, distancia;
-    scanf("%lf %lf %lf %lf", &x1, &y1, &x2, &y2);
+    int X = 60, Y = 90, distancia;
 
-    p1 = (x2 - x1) * (x2 - x1);
-    p2 = (y2 - y1) * (y2 - y1);
-    distancia = sqrt(p1 + p2);
+    scanf("%d", &distancia);
 
-    printf("%.4lf\n", distancia);
+    distancia = distancia * 2;
+
+    printf("%d minutos\n", distancia);
 
     return 0;
 }
